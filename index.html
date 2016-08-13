@@ -1,0 +1,162 @@
+<!doctype html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/main.css">
+
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+        <script data-main="js/main" src="js/require.js"></script>
+    </head>
+    <body>
+
+
+    <nav class="navbar navbar-fixed-top reli-nav">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#"><img src="img/bjrl.jpg"></img></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse navbar-search">
+          <form class="navbar-form navbar-right">
+            <div class="form-group">
+<div class="input-group">
+  
+  <input type="text" class="form-control btn-lg btn-roundborder" placeholder="搜索" >
+  <span class="form-control-feedback glyphicon glyphicon-search
+btn-noborder" aria-hidden="true"></span>
+</div>
+<div class="input-group ">
+  <button type="button" class="btn btn-default col-md-offset-3 btn-lg btn-noborder" aria-label="Left Align">
+  <span class="glyphicon glyphicon-user" aria-hidden="true"></span> 
+  &nbsp;
+  刘利
+</button>
+</div>
+
+            </div>
+
+          </form>
+        </div><!--/.navbar-collapse -->
+      </div>
+      <div class="container-fluid">
+        <ul class="nav nav-pills reli-sitemap">
+          <li><a href="#">全网监控</a></li>
+          <li><a href="#">热源</a></li>
+          <li><a href="#">下属机构</a></li>
+          <li role="presentation" class="active"><a href="#">热力站</a></li>
+          <li><a href="#">气象信息</a></li>
+          <li><a href="#">数据查询器</a></li>
+        </ul>
+        <ol class="breadcrumb reli-breadcrumb">
+          <li><a href="#">首页</a></li>
+          <li><a href="#">热力站</a></li>
+          <li class="active">实时数据</li>
+        </ol>
+      </div>
+    </nav>
+
+    <div class="container-fluid">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-sm-3 col-md-2 sidebar">
+          <ul class="nav nav-sidebar">
+            <li>
+              <div class="attribute-selector panel panel-default reli-panel ">
+                <div class="sidebar-header panel-heading">
+                    <h3 class="panel-title"> 选择栏目 </h3>
+                </div>
+                <div class="panel-body">
+                   1) 数据位置 data/attribute_selector.json
+                   <br/><br/>
+
+                   2) 请按照原型图显示
+                  
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="filter panel panel-default reli-panel ">
+                <div class="sidebar-header panel-heading">
+                    <h3 class="panel-title"> 选择站点 </h3>
+                </div>
+                <div class="panel-body">
+                   1) 数据位置 data/filters.json
+                   <br/><br/>
+
+                   2) 请按照原型图显示
+
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div> <!-- end sidebar -->
+        <div class="col-sm-9 col-sm-offset-3 col-md-8 col-md-offset-2 main">
+          <div class="row controls">
+            <div class="col-md-2">
+              <button type="button" class="btn btn-default "> 
+                数据提取
+              </button>
+            </div>
+            <div class="col-md-2">
+              <button type="button" class="btn btn-default "> 
+                参数维护
+              </button>
+            </div>
+            <div class="col-md-2">
+              <button type="button" class="btn btn-default "> 
+                板块维护
+              </button>
+            </div>
+            <div class="col-md-2">
+              <button type="button" class="btn btn-default "> 
+                数据筛选
+              </button>
+            </div>
+            <div class="col-md-2">
+              <button type="button" class="btn btn-default"> 
+                数据导出
+              </button>
+            </div>
+          </div> <!-- end controls -->
+          <div class="table-responsive">
+             1) 数据位置 data/heatstations.json
+             <br> <br>
+             2) 请按照原型图显示 <br/><br/>
+
+               3) <span class="label label-warning"> 选择栏目</span> 中,
+               <span class="label label-warning  reli-highlight">  <input type="checkbox" checked=checked></input></span>  表示table显示该列;
+               <span class="label label-warning  reli-highlight">  <input type="checkbox" ></input></span>  表示table不显示该列;<br/><br/>
+
+               4) <span class="label label-info"> 选择站点</span> 中,
+               <span class="label label-info reli-highlight">  <input type="checkbox" checked=checked></input></span>  表示table显示该行;
+               <span class="label label-info  reli-highlight">  <input type="checkbox" ></input></span>  表示table不显示该行;
+          </div> <!-- end table-responsive -->
+       </div> <!-- end main -->
+
+       <div class="col-md-2 col-md-offset-10 sidebar-right">
+           <div >
+              1) 数据位置 data/ alerms.json
+              <br> <br>
+              2)  请按照原型图显示
+              <canvas id="alarm-chart">
+              </canvas>
+           </div>
+       </div>
+      </div> <!-- end row -->
+      <hr>
+
+      <footer>
+        <p>&copy; 2016 Qingguo Tech, Inc.</p>
+      </footer>
+    </div> <!-- /container -->
+
+
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+
+    </body>
+
+</html>

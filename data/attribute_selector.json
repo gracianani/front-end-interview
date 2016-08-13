@@ -1,0 +1,75 @@
+{
+	"attribute_selectors" :
+	[
+		{
+			"attribute_selector_id" : 1,
+			"attribute_selector_text" : "供温（℃)",
+			"attribute_selector_name" : "temperature_out"
+		},
+		{
+			"attribute_selector_id" : 2,
+			"attribute_selector_text" : "回温（℃)",
+			"attribute_selector_name" : "temperature_in"
+		},
+		{
+			"attribute_selector_id" : 3,
+			"attribute_selector_text" : "供压（Pa)",
+			"attribute_selector_name" : "pressure_out"
+		},
+		{
+			"attribute_selector_id" : 4,
+			"attribute_selector_text" : "回压（Pa)",
+			"attribute_selector_name" : "pressure_in"
+		},
+		{
+			"attribute_selector_id" : 5,
+			"attribute_selector_text" : "实际供热量（GJ）",
+			"attribute_selector_name" : "heat_realtime"
+		},
+		{
+			"attribute_selector_id" : 6,
+			"attribute_selector_text" : "投入面积（㎡）",
+			"attribute_selector_name" : "area_in_use"
+		},
+		{
+			"attribute_selector_id" : 7,
+			"attribute_selector_text" : "实际面积（㎡）",
+			"attribute_selector_name" : "area_total"
+		},
+		{
+			"attribute_selector_id" : 8,
+			"attribute_selector_text" : "瞬时流量（t/h)",
+			"attribute_selector_name" : "flow_instant"
+		},
+		{
+			"attribute_selector_id" : 9,
+			"attribute_selector_text" : "瞬时热量（kcal/h*㎡)",
+			"attribute_selector_name" : "heat_instant"
+		},
+		{
+			"attribute_selector_id" : 10,
+			"attribute_selector_text" : "二次供水温度（℃）",
+			"attribute_selector_name" : "second_temperature_out"
+		},
+		{
+			"attribute_selector_id" : 11,
+			"attribute_selector_text" : "一次回温最高值（℃）",
+			"attribute_selector_name" : "first_temperatue_max"
+		},
+		{
+			"attribute_selector_id" : 12,
+			"attribute_selector_text" : "给定阀门开度（%）",
+			"attribute_selector_name" : "valve_value"
+		},
+		{
+			"attribute_selector_id" : 13,
+			"attribute_selector_text" : "二次供温温控模式",
+			"attribute_selector_name" : "second_temperature_control_type"
+		},
+		{
+			"attribute_selector_id" : 14,
+			"attribute_selector_text" : "万平米流量（t/h)",
+			"attribute_selector_name" : "ten_thousand_flow"
+		}
+	]
+}

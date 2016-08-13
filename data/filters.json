@@ -1,0 +1,130 @@
+{
+	"filters" :
+	[
+		{
+			"filter_group_id" : "1",
+			"filter_group_text" : "东西部",
+			"filter_group_name" : "east_or_west",
+			"filter_group_type" : "multiple",
+			"filter_items" : [
+				{
+					"filter_item_id" : "1",
+					"filter_item_name" : "东部"
+				},
+				{
+					"filter_item_id" : "2",
+					"filter_item_name" : "西部"
+				}
+			]
+		},
+		{
+			"filter_group_id" : "2",
+			"filter_group_text" : "分公司",
+			"filter_group_name" : "company_name",
+			"filter_group_type" : "multiple",
+			"filter_items" : [
+				{
+					"filter_item_id" : "3",
+					"filter_item_name" : "朝一分公司"
+				},
+				{
+					"filter_item_id" : "4",
+					"filter_item_name" : "朝二分公司"
+				},
+				{
+					"filter_item_id" : "5",
+					"filter_item_name" : "东城分公司"
+				},
+				{
+					"filter_item_id" : "6",
+					"filter_item_name" : "西城分公司"
+				},
+				{
+					"filter_item_id" : "7",
+					"filter_item_name" : "海淀分公司"
+				},
+				{
+					"filter_item_id" : "8",
+					"filter_item_name" : "丰台分公司"
+				}
+			]
+		},
+		{
+			"filter_group_id" : "3",
+			"filter_group_text" : "重点站",
+			"filter_group_name" : "is_important",
+			"filter_group_type" : "multiple",
+			"filter_items" : [
+				{
+					"filter_item_id" : "9",
+					"filter_item_name" : "重点站"
+				},
+				{
+					"filter_item_id" : "10",
+					"filter_item_name" : "非重点站"
+				}
+			]
+		},
+		{
+			"filter_group_id" : "4",
+			"filter_group_text" : "面积类型",
+			"filter_group_name" : "area_type",
+			"filter_group_type" : "multiple",
+			"filter_items" : [
+				{
+					"filter_item_id" : "11",
+					"filter_item_name" : "医院"
+				},
+				{
+					"filter_item_id" : "12",
+					"filter_item_name" : "养老院"
+				},
+				{
+					"filter_item_id" : "13",
+					"filter_item_name" : "医院"
+				},
+				{
+					"filter_item_id" : "14",
+					"filter_item_name" : "幼儿园"
+				},
+				{
+					"filter_item_id" : "15",
+					"filter_item_name" : "学校"
+				},
+				{
+					"filter_item_id" : "16",
+					"filter_item_name" : "商场、超市"
+				},
+				{
+					"filter_item_id" : "17",
+					"filter_item_name" : "宾馆、饭店"
+				},
+				{
+					"filter_item_id" : "18",
+					"filter_item_name" : "影剧院等娱乐场所"
+				}
+			]
+		},
+		{
+			"filter_group_id" : "5",
+			"filter_group_text" : "收费性质",
+			"filter_group_type" : "multiple",
+			"filter_group_name" : "station_type",
+			"filter_items" : [
+				{
+					"filter_item_id" : "19",
+					"filter_item_name" : "监测"
+				},
+				{
+					"filter_item_id" : "20",
+					"filter_item_name" : "智能卡"
+				},
+				{
+					"filter_item_id" : "21",
+					"filter_item_name" : "人工抄表"
+				}
+			]
+		}
+		
+	]
+}
